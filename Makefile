@@ -5,6 +5,6 @@ run:
 	python main.py
 .PHONY :test
 test:
-	PYTHONPATH=. py.test --verbose -s
+	$ PYTHONPATH=. py.test --verbose -s
 lint:
-	flake8 hello_world	test
+	flake8 hello_world test
